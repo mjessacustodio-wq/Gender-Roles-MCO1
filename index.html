@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gender Roles in the Philippines: a student-made interactive exploration of history, contemporary life, social expectations, multimedia, data, and reflection.">
+  <title>Gender Roles in the Philippines | Then, Now & Beyond</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home">GENDER<span>ROLES</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a><a href="#then">Then</a><a href="#now">Now</a><a href="#data">Data</a>
+        <a href="#media">Media</a><a href="#challenges">Challenges</a><a href="#comparison">Then vs Now</a>
+        <a href="#voices">Voices</a><a href="#reflection">Reflection</a><a href="#references">Sources</a>
+      </div>
+    <a href="#team">Our Team</a>
+</nav>
+
+    <div class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">GENDER AND SOCIETY • MCO 1</p>
+        <h1>Gender Roles<br><em>in the Philippines</em></h1>
+        <p class="hero-subtitle">Then • Now • Beyond</p>
+        <p class="hero-text">A critical exploration of how history, culture, family, institutions, media, and everyday expectations shape gender roles in Filipino society.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#then">Explore the Story ↓</a>
+          <a class="btn btn-ghost" href="#reflection">Go to Reflection</a>
+        </div>
+        <div class="hero-badges"><span>History</span><span>Society</span><span>Data</span><span>Media</span><span>Reflection</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Original illustration showing change across time">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="sun">THEN<br><span>→</span><br>NOW</div>
+        <div class="spark spark-a">✦</div><div class="spark spark-b">✧</div><div class="spark spark-c">•</div>
+        <div class="art-label label-one">EXPECTATIONS</div><div class="art-label label-two">CHOICES</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro section">
+      <div class="container intro-grid">
+        <div class="section-heading reveal"><p class="eyebrow">WHY IT MATTERS</p><h2>Gender roles are not frozen in time.</h2></div>
+        <div class="intro-text reveal">
+          <p>Gender roles are social expectations about how people are supposed to behave, work, care for others, express themselves, and participate in society. In the Philippines, these expectations have been shaped by changing historical conditions and social institutions.</p>
+          <p>This website does not present one “Filipino” experience as universal. Experiences can differ across generations, regions, social classes, families, and individual circumstances.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="then" class="section dark-section">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">THEN</p><h2>Gender Roles Through Time</h2><p>Explore selected periods. These are broad historical snapshots, not descriptions of every Filipino community.</p></div>
+        <div class="timeline" role="tablist" aria-label="Historical timeline">
+          <button class="timeline-item active" data-period="precolonial" role="tab" aria-selected="true"><span>01</span><strong>Pre-colonial</strong><small>Before 1565</small></button>
+          <button class="timeline-item" data-period="spanish" role="tab" aria-selected="false"><span>02</span><strong>Spanish Period</strong><small>1565–1898</small></button>
+          <button class="timeline-item" data-period="american" role="tab" aria-selected="false"><span>03</span><strong>American Period</strong><small>1898–1946</small></button>
+          <button class="timeline-item" data-period="postwar" role="tab" aria-selected="false"><span>04</span><strong>Post-war</strong><small>1946 onward</small></button>
+          <button class="timeline-item" data-period="contemporary" role="tab" aria-selected="false"><span>05</span><strong>Contemporary</strong><small>Today</small></button>
+        </div>
+        <article class="history-panel reveal" id="history-panel" aria-live="polite"></article>
+        <div class="history-visual reveal"><img src="assets/timeline.svg" alt="Original timeline illustration showing historical change from then to now"><div><strong>Read history with context.</strong><p>Roles were never identical across all communities. Look for differences in power, work, family life, education, and social institutions.</p></div></div>
+      </div>
+    </section>
+
+    <section id="now" class="section">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">NOW</p><h2>Gender Roles in Contemporary Filipino Life</h2><p>Traditional expectations can remain influential while people also negotiate new roles in everyday life.</p></div>
+        <div class="card-grid">
+          <article class="info-card reveal"><div class="icon">01</div><h3>Women & Work</h3><p>Women participate across education, employment, entrepreneurship, public life, and professional leadership. Their experiences are shaped by both opportunities and continuing expectations around care.</p><button class="text-btn modal-trigger" data-title="Women & Work" data-text="Contemporary Filipino women participate in many areas of public and economic life. At the same time, social expectations around caregiving and household responsibilities can affect how work and family are negotiated.">Read insight →</button></article>
+          <article class="info-card reveal"><div class="icon">02</div><h3>Men & Care</h3><p>Men are often expected to be providers and emotionally strong. Contemporary family life also includes fathers and male caregivers who share responsibilities traditionally coded as feminine.</p><button class="text-btn modal-trigger" data-title="Men & Care" data-text="The provider expectation can narrow how masculinity is understood. Shared caregiving and household work show that family responsibility does not have to be assigned by gender.">Read insight →</button></article>
+          <article class="info-card reveal"><div class="icon">03</div><h3>Education</h3><p>Schools can reproduce expectations through everyday messages, but education can also challenge stereotypes by widening ideas about careers, leadership, and participation.</p><button class="text-btn modal-trigger" data-title="Education" data-text="Education is a setting where young people encounter ideas about what girls and boys are expected to do. It can reinforce stereotypes or help students question them.">Read insight →</button></article>
+          <article class="info-card reveal"><div class="icon">04</div><h3>Family</h3><p>Household labor, caregiving, decision-making, and income are negotiated differently across Filipino families. There is no single family arrangement that represents everyone.</p><button class="text-btn modal-trigger" data-title="Family" data-text="Family expectations can influence who cooks, cleans, earns income, cares for children, or makes decisions. These responsibilities can be shared, but social norms may affect how families divide them.">Read insight →</button></article>
+          <article class="info-card reveal"><div class="icon">05</div><h3>Workplace</h3><p>Gender can affect expectations about leadership, occupations, care work, and professional behavior. Looking at data helps move discussion beyond assumptions.</p><button class="text-btn modal-trigger" data-title="Workplace" data-text="The PSA maintains gender indicators across social and economic sectors. Sex-disaggregated data can help identify patterns instead of relying only on stereotypes.">Read insight →</button></article>
+          <article class="info-card reveal"><div class="icon">06</div><h3>Media & Social Media</h3><p>Media can repeat familiar stereotypes, but it can also give visibility to people who challenge traditional expectations and broaden public conversations.</p><button class="text-btn modal-trigger" data-title="Media & Social Media" data-text="Media messages influence what appears normal or desirable. Critical media literacy helps audiences notice repeated stereotypes and ask whether a representation reflects diverse Filipino experiences.">Read insight →</button></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="data" class="section soft-section">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">LOOK AT THE EVIDENCE</p><h2>Gender in Numbers</h2><p>Numbers do not explain every experience, but they help us ask better questions. The figures below come from official Philippine Statistics Authority releases.</p></div>
+        <div class="stat-grid">
+          <article class="stat-card reveal"><span>2024 Census</span><strong>112.33M</strong><p>household population recorded in the Philippines.</p></article>
+          <article class="stat-card reveal"><span>2024 Census</span><strong>50.5%</strong><p>of the household population were male; 49.5% were female.</p></article>
+          <article class="stat-card reveal"><span>Core GAD Indicators</span><strong>120+</strong><p>indicators were included in the PSA's 2024 Women and Men fact sheet across 20 socioeconomic sectors.</p></article>
+        </div>
+        <div class="mini-infographic reveal">
+          <div class="people-bars"><div class="bar-label"><span>Male</span><b>50.5%</b></div><div class="bar"><i style="width:50.5%"></i></div><div class="bar-label"><span>Female</span><b>49.5%</b></div><div class="bar"><i style="width:49.5%"></i></div></div>
+          <div class="data-note"><h3>Why sex-disaggregated data matters</h3><p>Breaking data down by sex can reveal patterns that a single total may hide. The PSA's Core Gender and Development indicators cover areas such as population, education, work and economic participation, social protection, and other gender concerns.</p><a class="source-link" href="https://psa.gov.ph/gender-statistics" target="_blank" rel="noopener">View PSA Gender Statistics ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="media" class="section">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">MULTIMEDIA</p><h2>See & Listen: Gender-Responsive Governance</h2><p>A short official Philippine Commission on Women video gives another way to understand why gender-responsive approaches matter beyond individual households.</p></div>
+        <div class="media-grid">
+          <div class="video-card reveal"><div class="video-wrap"><iframe src="https://www.youtube.com/embed/zPbXL75el00" title="Gender-responsive governance - Philippine Commission on Women" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><p class="caption">Source: Philippine Commission on Women & Department of the Interior and Local Government, 2026.</p></div>
+          <div class="media-copy reveal"><img src="assets/roles-infographic.svg" alt="Original infographic showing how expectations can shape roles in family, school, work, and media"><h3>From expectation to possibility</h3><p>Gender roles are learned through repeated messages and social practices. Critical reflection asks: Who is expected to do the work? Who gets opportunities? Who makes decisions? What happens when someone challenges the expectation?</p><a class="source-link" href="https://pcw.gov.ph/gender-mainstreaming/" target="_blank" rel="noopener">Read PCW's Gender Mainstreaming overview ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="challenges" class="section dark-section">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">CRITICAL EXPLORATION</p><h2>What Expectations Do We Carry?</h2><p>Common statements can sound ordinary because we hear them repeatedly. Repetition does not make a social expectation a universal rule.</p></div>
+        <div class="expectation-list">
+          <button class="expectation reveal" data-title="“Men should be strong.”" data-text="Strength can be valuable, but treating emotional expression as weakness can limit how boys and men communicate, seek support, and participate in care work."><span>01</span><strong>“Men should be strong.”</strong><em>Question the rule →</em></button>
+          <button class="expectation reveal" data-title="“Women should take care of the home.”" data-text="Care work is necessary work, but assigning it automatically by gender can limit choices. Families may divide domestic responsibilities in different ways depending on time, income, ability, and circumstances."><span>02</span><strong>“Women should take care of the home.”</strong><em>Question the rule →</em></button>
+          <button class="expectation reveal" data-title="“Some careers are for men or women.”" data-text="Career interests and skills are not determined by a gender label. Gender expectations can influence what young people see as acceptable or possible, which is why education and representation matter."><span>03</span><strong>“Some careers are for men or women.”</strong><em>Question the rule →</em></button>
+          <button class="expectation reveal" data-title="“Leadership looks a certain way.”" data-text="Leadership is not limited to one personality or gender. Looking critically at who gets represented as a leader can reveal assumptions about authority, confidence, and competence."><span>04</span><strong>“Leadership looks a certain way.”</strong><em>Question the rule →</em></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="comparison" class="section">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">THEN VS NOW</p><h2>Change is visible—but not automatic.</h2><p>Use the button to move through examples of changing expectations. The comparison describes patterns, not every Filipino family or community.</p></div>
+        <div class="comparison-box reveal">
+          <div class="compare-col old"><span>THEN / TRADITIONAL EXPECTATION</span><h3 id="compare-old-title"></h3><p id="compare-old-text"></p></div>
+          <button id="swap-btn" class="swap-btn" aria-label="Show next comparison">↔</button>
+          <div class="compare-col new"><span>NOW / SHARED POSSIBILITY</span><h3 id="compare-new-title"></h3><p id="compare-new-text"></p></div>
+        </div>
+        <div id="comparison-dots" class="dots" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="voices" class="section soft-section">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow">VOICES</p><h2>Different Experiences, Different Realities</h2><p>Instead of asking “What are Filipino men and women like?”, ask how social context shapes people’s options and responsibilities.</p></div>
+        <div class="voice-grid">
+          <button class="voice-card reveal" data-title="Family expectations" data-text="A student may be expected to help with siblings or household work because of family routines, birth order, income, or cultural expectations. The experience is not identical across households."><span>01</span><strong>Family</strong><small>Who does care work?</small></button>
+          <button class="voice-card reveal" data-title="School expectations" data-text="Students can encounter assumptions about subjects, leadership, appearance, behavior, or career choices. Classrooms can also become spaces where those assumptions are questioned."><span>02</span><strong>School</strong><small>Who is encouraged to lead?</small></button>
+          <button class="voice-card reveal" data-title="Work expectations" data-text="Workplaces may carry assumptions about leadership, caregiving, occupations, or professional behavior. Looking at actual data helps distinguish patterns from stereotypes."><span>03</span><strong>Work</strong><small>Who gets opportunities?</small></button>
+          <button class="voice-card reveal" data-title="Media expectations" data-text="Repeated portrayals can make a narrow role appear normal. Media literacy helps audiences recognize patterns and look for more varied representations."><span>04</span><strong>Media</strong><small>What is shown as normal?</small></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="reflection" class="section reflection-section">
+      <div class="container reflection-grid">
+        <div class="section-heading reveal"><p class="eyebrow">REFLECTION</p><h2>From “Who should?” to “Why?”</h2></div>
+        <div class="reflection-copy reveal">
+          <p>Gender roles become easier to understand when we examine where expectations come from. Family practices, culture, institutions, media, economic conditions, and historical experiences can all influence what people are taught to expect from women and men.</p>
+          <p>Questioning a gender role does not mean rejecting every tradition. It means asking whether an expectation is fair, whether it limits people’s opportunities, and whether responsibilities can be shared according to people’s abilities and circumstances rather than stereotypes.</p>
+          <div class="reflection-prompt"><span>ASK YOURSELF</span><strong>“Is this a personal choice—or an expectation I learned?”</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="references" class="section references-section">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">SOURCES & ACADEMIC INTEGRITY</p><h2>References & Further Reading</h2><p>Use the original sources below to verify claims and explore the topic further. External multimedia is credited beside the media item.</p></div>
+        <div class="reference-list reveal">
+          <a href="https://psa.gov.ph/gender-statistics" target="_blank" rel="noopener"><span>01</span><div><strong>Philippine Statistics Authority — Gender and Development</strong><small>Core GAD indicators and Women and Men in the Philippines statistics.</small></div><b>↗</b></a>
+          <a href="https://psa.gov.ph/content/age-and-sex-distribution-philippine-population-2024-census-population" target="_blank" rel="noopener"><span>02</span><div><strong>PSA — 2024 Census: Age and Sex Distribution</strong><small>Official 2024 population and sex-distribution release.</small></div><b>↗</b></a>
+          <a href="https://pcw.gov.ph/magna-carta-of-women/" target="_blank" rel="noopener"><span>03</span><div><strong>Philippine Commission on Women — Republic Act No. 9710</strong><small>Magna Carta of Women and gender mainstreaming mandate.</small></div><b>↗</b></a>
+          <a href="https://pcw.gov.ph/republic-act-7192-women-in-development-and-nation-building-act/" target="_blank" rel="noopener"><span>04</span><div><strong>Philippine Commission on Women — Republic Act No. 7192</strong><small>Women in Development and Nation Building Act.</small></div><b>↗</b></a>
+          <a href="https://pcw.gov.ph/gender-mainstreaming/" target="_blank" rel="noopener"><span>05</span><div><strong>PCW — Gender Mainstreaming</strong><small>Overview of gender equality as a goal and gender mainstreaming as a strategy.</small></div><b>↗</b></a>
+          <a href="https://pcw.gov.ph/gender-equality-guide/" target="_blank" rel="noopener"><span>06</span><div><strong>PCW — Gender Equality Guide</strong><small>Reference material on gender-fair communication and representation.</small></div><b>↗</b></a>
+        </div>
+        <div class="citation-note"><strong>Student project note:</strong> Add your instructor-approved class readings, books, journal articles, laws, and image credits here if your group uses them in the final submission. Do not claim sources your group did not actually consult.</div>
+      </div>
+    </section>
+  <section id="team" class="section team-section">
+  <div class="section-heading">
+    <p class="eyebrow">OUR GROUP</p>
+    <h2>Meet the Team</h2>
+    <p>Our group members for the Gender Roles in the Philippine Context MCO.</p>
+  </div>
+  <div class="team-grid">
+    <article class="team-card">
+      <div class="member-number">01</div>
+      <h3>Abagat, Gem Francis D.</h3>
+      <p>Group Member</p>
+    </article>
+    <article class="team-card">
+      <div class="member-number">02</div>
+      <h3>Alba, Samantha Mae P.</h3>
+      <p>Group Member</p>
+    </article>
+    <article class="team-card">
+      <div class="member-number">03</div>
+      <h3>Custodio, Ma. Jessa B.</h3>
+      <p>Group Member</p>
+    </article>
+    <article class="team-card">
+      <div class="member-number">04</div>
+      <h3>Ginay, Faith Jimcel D.</h3>
+      <p>Group Member</p>
+    </article>
+    <article class="team-card">
+      <div class="member-number">05</div>
+      <h3>Ignacio, Kaye Alyson C.</h3>
+      <p>Group Member</p>
+    </article>
+    <article class="team-card">
+      <div class="member-number">06</div>
+      <h3>Morales, Crizel C.</h3>
+      <p>Group Member</p>
+    </article>
+    <article class="team-card">
+      <div class="member-number">07</div>
+      <h3>Pormaran, Ketchee B.</h3>
+      <p>Group Member</p>
+    </article>
+    <article class="team-card">
+      <div class="member-number">08</div>
+      <h3>Ruedas, Mayah Azeneth A.</h3>
+      <p>Group Member</p>
+    </article>
+  </div>
+</section>
+
+</main>
+
+  <footer class="footer"><div class="container footer-inner"><div><strong>GENDER<span>ROLES</span></strong><p>Gender and Society • MCO 1</p></div><p>Student-made educational website • Philippines</p></div></footer>
+
+  <div class="modal" id="modal" aria-hidden="true"><div class="modal-backdrop"></div><div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close" aria-label="Close">×</button><p class="eyebrow">INSIGHT</p><h2 id="modal-title"></h2><p id="modal-text"></p></div></div>
+  <button id="to-top" class="to-top" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
